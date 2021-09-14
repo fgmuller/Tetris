@@ -59,12 +59,16 @@ document.addEventListener('DOMContentLoaded', () => {
   function control(e) {
     if (e.keyCode === 39)
       moveright()
+    document.getElementById('imagen2').addEventListener('click',moveright());
     else if (e.keyCode === 38)
       rotate()
+    document.getElementById('imagen1').addEventListener('click',moveright());
     else if (e.keyCode === 37)
       moveleft()
+    document.getElementById('imagen3').addEventListener('click',moveright());
     else if (e.keyCode === 40)
       moveDown()
+    document.getElementById('imagen4').addEventListener('click',moveright());
   }
 
   // the classical behavior is to speed up the block if down button is kept pressed so doing that
