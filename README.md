@@ -1,2 +1,0 @@
-# Tetris
-javascript game
